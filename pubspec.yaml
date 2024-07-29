@@ -1,0 +1,29 @@
+name: myapp
+description: "A chatbot application using UNAMA.AI"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_generative_ai: ^0.2.0
+  google_fonts: ^5.1.0
+  logging: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/chat_background.png
+    - assets/profile_placeholder.png
+    - assets/profile_background.png
